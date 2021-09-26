@@ -67,7 +67,7 @@
 	FROM Club
 	ORDER BY num_socios DESC;
 
-	--ORDENAR RESULTADOS USANDO VARIOS CAMPUS
+	--ORDENAR RESULTADOS USANDO VARIOS CAMPOS
 	--Escribe una consulta SQL que devuelva los nombres de los clubes ordenados de mayor a menor número de socios. 
 	--En caso de empate a número de socios, estos deben aparecer en orden alfabético inverso. 
 	--El esquema del resultado debe ser el siguiente:

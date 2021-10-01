@@ -116,3 +116,11 @@
 	SELECT DISTINCT Colegio 
 	FROM Arbitro
 	WHERE EXTRACT(MONTH FROM fecha_colegiatura) = 6;
+
+	--OPERAR CON FECHAS
+	-- Escribe una consulta SQL que devuelva el NIF y fecha en la que cada árbitro cumplió (o cumplirá) 
+	--su aniversario de 10 años desde su colegiatura. El esquema del resultado debe ser el siguiente
+	--(ten cuidado con el nombre de la columna del aniversario):
+	--(NIF, Aniversario)
+	SELECT NIF, ADD_MONTHS(fecha_colegiatura, 120) AS "ANIVERSARIO"
+	FROM ARBITRO;

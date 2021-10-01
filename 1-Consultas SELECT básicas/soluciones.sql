@@ -120,3 +120,11 @@
 	WHERE num_socios > 50000
 	ORDER BY num_socios DESC, cif ASC;
 
+	--EXTRAER MESES DE UNA FECHA
+	--Escribe una consulta SQL que devuelva el Colegio sin repeticiones de los árbitros que se colegiaron en
+	--un mes de junio. El esquema del resultado debe ser el siguiente:
+	--(Colegio)
+	
+	SELECT DISTINCT Colegio 
+	FROM Arbitro
+	WHERE EXTRACT(MONTH FROM fecha_colegiatura) = 6;

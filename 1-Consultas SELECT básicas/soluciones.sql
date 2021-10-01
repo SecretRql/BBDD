@@ -1,15 +1,3 @@
-	--Considera una tabla que almacena 
-	--algunos datos sobre clubes de fútbol definida de la siguiente manera:
-	CREATE TABLE Club(
-		CIF CHAR(9) PRIMARY KEY,
-		Nombre VARCHAR(40) NOT NULL UNIQUE,
-		Sede VARCHAR(30) NOT NULL,
-		Num_Socios INTEGER NOT NULL,
-	);
-
-	INSERT INTO Club VALUES ('11111111X', 'Real Madrid CF', 'Concha Espina', 70000);
-	INSERT INTO Club VALUES ('11111112X', 'Futbol Club Barcelona', 'Aristides Maillol', 80000);
-	INSERT INTO Club VALUES ('11111113X', 'Paris Saint-Germain Football Club', 'Rue du Commandant Guilbaud', 1000);
 
 
 	--TABLA COMPLETA

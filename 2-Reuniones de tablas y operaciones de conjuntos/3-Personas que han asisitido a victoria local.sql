@@ -1,0 +1,3 @@
+--Escribe una consulta SQL que devuelva el NIF y nombre (sin repeticiones) de las personas que han asistido a alguna
+--victoria local. El esquema esperado es:
+--(NIF, Nombre)

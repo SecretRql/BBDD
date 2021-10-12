@@ -1,4 +1,7 @@
--- Escribe una consulta SQL tal que por cada partido ganado por el club local, muestre el nombre de los clubes enfrentados y el resultado. Los resultados deben aparecer ordenados de más a menos goles locales, en caso de igualdad de más a menos goles visitantes, y en caso de resultados iguales deben aparecer por nombre de club local descendente. El esquema esperado es:
+-- Escribe una consulta SQL tal que por cada partido ganado por el club local, muestre el nombre de los clubes 
+-- enfrentados y el resultado. Los resultados deben aparecer ordenados de más a menos goles locales, en caso de igualdad 
+-- de más a menos goles visitantes, y en caso de resultados iguales deben aparecer por nombre de club local descendente. 
+-- El esquema esperado es:
 -- (ClubLocal, GolesLocal, GolesVisitante, ClubVisitante)
 
 

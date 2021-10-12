@@ -16,4 +16,4 @@ WHERE
 ORDER BY
     e.goleslocal DESC,
     e.golesvisitante DESC,
-    l.nombre DEC;
+    l.nombre DESC;

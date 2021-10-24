@@ -15,7 +15,7 @@ FROM
     INNER JOIN club       l ON (e.cif_local = l.cif)
     INNER JOIN club       v ON (e.cif_visitante = v.cif)
 WHERE
-    e.golesvisitante < e.goleslocal;
+    e.golesvisitante < e.goleslocal
 ORDER BY
     e.goleslocal DESC,
     e.golesvisitante DESC,

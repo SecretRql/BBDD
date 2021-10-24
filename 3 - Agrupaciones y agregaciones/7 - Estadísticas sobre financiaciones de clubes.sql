@@ -2,7 +2,7 @@
 --Únicamente deben aparecer aquellos clubes con al menos una financiación. El esquema esperado es:
 --(CIF, Nombre, PromedioFinanciaciones, TotalFinanciaciones)
 SELECT
-    f.cif_c    cif,
+    c.cif    cif,
     c.nombre   nombre,
     AVG(f.cantidad) promediofinanciaciones,
     COUNT(f.cif_p) totalfinanciaciones
@@ -11,4 +11,4 @@ FROM
     INNER JOIN club       c ON f.cif_c = c.cif
 GROUP BY
     c.nombre,
-    f.cif_c;
+    c.cif;
